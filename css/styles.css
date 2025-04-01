@@ -1,0 +1,198 @@
+/* Estilos generales */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212; /* Fondo oscuro */
+    color: #f0f0f0; /* Texto claro */
+}
+
+/* Encabezado */
+header {
+    background-color: #1e1e1e;
+    color: #ffffff;
+    padding: 1rem;
+    border-bottom: 1px solid #333;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav ul li {
+    margin-left: 1rem;
+}
+
+header nav ul li a {
+    color: #bb86fc; /* Color púrpura */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    color: #ffffff;
+}
+
+/* Secciones */
+section {
+    padding: 2rem;
+}
+
+section h2 {
+    color: #bb86fc;
+    border-bottom: 1px solid #333;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+/* Proyectos */
+#projects {
+    background-color: #212121;
+}
+
+.project {
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border: 1px solid #333;
+    border-radius: 5px;
+}
+
+
+
+.project-images {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.project-image-small {
+    width: calc(33.33% - 10px); /* Ajusta el ancho para que quepan tres imágenes */
+    height: 150px; /* Ajusta el alto según tus necesidades */
+    object-fit: cover;
+    margin: 5px;
+}
+
+.project h3 {
+    color: #bb86fc;
+}
+
+.project a {
+    color: #bb86fc;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+
+.project a:hover {
+    color: #ffffff;
+}
+
+/* Contacto */
+#contact {
+    background-color: #1e1e1e;
+}
+
+form label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #333;
+    border-radius: 5px;
+    background-color: #333;
+    color: #f0f0f0;
+}
+
+form button {
+    background-color: #bb86fc;
+    color: #ffffff;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #6200ee;
+}
+
+/* Pie de página */
+footer {
+    text-align: center;
+    background-color: #1e1e1e;
+    color: #ffffff;
+    padding: 1rem;
+    border-top: 1px solid #333;
+}
+/* Estilos para la sección de inicio */
+#home {
+    background-color: #f0f0f0;
+    padding: 0;
+}
+
+.hero-image {
+    position: relative;
+    height: 500px; /* Ajusta la altura según tus preferencias */
+    overflow: hidden; /* Asegura que la imagen no se desborde */
+}
+
+.hero-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Cubre todo el contenedor sin deformar la imagen */
+    filter: brightness(70%); /* Oscurece la imagen para mejorar la legibilidad del texto */
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+}
+
+.hero-text h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.hero-text p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #bb86fc; /* Color púrpura */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #6200ee; /* Color púrpura más oscuro al pasar el ratón */
+}
+.profile-image {
+    max-width: 35%; /* Ajusta el ancho máximo a 100% del contenedor */
+    height: auto; /* Mantén la altura automática para conservar la proporción */
+}
