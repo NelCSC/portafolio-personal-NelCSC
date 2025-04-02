@@ -35,6 +35,14 @@ header nav ul {
     hyphens: auto; /* Permite la hifensación automática */
 }
 
+.projects-container{
+    text-align: justify;
+    text-justify: inter-word; /* Ajusta los espacios entre palabras */
+    line-height: 1.6; /* Mejora la legibilidad */
+    word-spacing: 0.1em; /* Ajusta el espacio entre palabras */
+    hyphens: auto; /* Permite la hifensación automática */
+}
+
 
 header nav ul li {
     margin-left: 1rem;
